@@ -1,0 +1,174 @@
+/* ---------Main body--------- */
+body {
+    background: black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: left;
+    overflow-x: hidden;
+}
+
+
+
+/* Explanatory text and titles*/
+.base {
+    color: white;
+    font-family: Kanit;
+    margin-top: 30px;
+}
+
+h2 {
+    color: white;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+.title {
+    color: white;
+    font-size: 23px;
+    font-style: bold;
+    font-family: sans-serif;
+}
+
+p {
+    color: white;
+    font-size: 18px;
+    font-family: Kanit;
+}
+
+.text {
+    color: white;
+    font-size: 16px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+
+.box-games {
+    display: block;
+    width: 100%;
+    color: white;
+    background-color: #ffffff14;
+    border-radius: 10px;
+    border: solid 1px;
+    padding-left: 20px;
+    padding-top: 20px;
+    max-width: 675px;
+}
+
+h1 {
+    color: white;
+    font-size: 40px;
+    font-family: Tahoma;
+    text-align: center;
+}
+
+
+
+/* ---------BLOG: Blogposts--------- */
+.blogbox {
+    display: block;
+    width: 100%;
+    background-color: #ffffff14;
+    border-radius: 10px;
+    border: solid 1px;
+    padding-left: 20px;
+    padding-top: 20px;
+    max-width: 50%;
+}
+
+.readmore {
+    font-family: Kanit;
+    color: black;
+    font-size: 13px;
+
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.text-blog {
+    color: white;
+    font-size: 16px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    margin-right: 3%;
+}
+
+.blogpagetext {
+    color: white;
+    font-size: 16px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+
+}
+
+.blogimg {
+    border: solid 1px !important;
+    border-color: white !important;
+    border-radius: 10px;
+
+    float: right;
+    max-width: 30%;
+    margin-top: 110px;
+    margin-right: 5%;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-container>article {
+    background-color: #ffffff14;
+    width: 600px;
+    border-radius: 10px;
+    border: solid 1px;
+    border-color: white;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+
+
+/* Spacing in lines */
+.divmain {
+    margin-top: 60px;
+    margin-left: 5%;
+}
+
+.divfloat {
+    margin-top: 67px;
+    margin-left: 5%;
+}
+
+.divspace {
+    margin-top: 60px;
+}
+
+.div-faq {
+    margin-top: 35px;
+}
+
+.divblog {
+    margin-top: 25px;
+}
+
+.div-20px {
+    margin-top: 20px;
+}
+
+.div-index {
+    margin-top: 15%;
+    margin-right: 19px;
+}
+
+.divblank {
+    height: -100vh;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden;
+}
